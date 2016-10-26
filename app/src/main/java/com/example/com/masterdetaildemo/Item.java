@@ -1,12 +1,14 @@
 package com.example.com.masterdetaildemo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by linke_000 on 26/10/2016.
  */
 
-public class Item {
+public class Item implements Serializable {
+    private static final long serialVerionUID = -1;
     private String title;
     private String body;
 
